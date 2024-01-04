@@ -1,0 +1,9 @@
+- bluetooth stereo / uebertragertrafo
+- +/- versorgung aus 6,3v, lm317 oae.
+- ersatz selengl (mech gleich)
+    - c parallel d
+- ersatz roehrengl (?pin)
+- ersatz + / R zu ersatz gl
+- adapter fuer THT C zu bedrahtet C
+- loetleiste
+- alles auf 10x10 jlcpcb, pcbway scheinen alle dieses Mass zu verwenden
