@@ -10,6 +10,7 @@
 *.kicad_pcb-bak
 *.sch-bak
 _saved_*
+*backups*
 
 # Netlists
 *.net
@@ -30,3 +31,6 @@ fp-info-cache
 
 # Autosave files
 _autosave-*
+*auto_saved_files*
+
+*.lck
