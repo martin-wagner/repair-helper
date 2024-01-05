@@ -406,64 +406,8 @@
         )
       )
     )
-    (symbol "saba-fernbedienung-rescue:CP-Device" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "Device_CP" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "CP_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "CP-Device_0_1"
-        (rectangle (start -2.286 0.508) (end 2.286 1.016)
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 2.286)
-            (xy -0.762 2.286)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 2.794)
-            (xy -1.27 1.778)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (rectangle (start 2.286 -0.508) (end -2.286 -1.016)
-          (stroke (width 0) (type solid))
-          (fill (type outline))
-        )
-      )
-      (symbol "CP-Device_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
   )
 
-  (junction (at 189.23 69.85) (diameter 0) (color 0 0 0 0)
-    (uuid 0053c49f-7fd5-4d76-9ff4-816144c73032)
-  )
   (junction (at 129.54 132.08) (diameter 0) (color 0 0 0 0)
     (uuid 4b3cae96-66af-4e72-accc-9b69c8f83563)
   )
@@ -472,9 +416,6 @@
   )
   (junction (at 129.54 163.83) (diameter 0) (color 0 0 0 0)
     (uuid 80f30af9-f8af-4c55-8ef2-112800c4e048)
-  )
-  (junction (at 189.23 35.56) (diameter 0) (color 0 0 0 0)
-    (uuid a0a26e38-03ee-49b5-8c5c-4ac578644268)
   )
   (junction (at 114.3 163.83) (diameter 0) (color 0 0 0 0)
     (uuid cfdedd7c-2e8f-4e95-a5cc-0811f2087f8c)
@@ -487,10 +428,6 @@
   (wire (pts (xy 60.96 116.84) (xy 67.31 116.84))
     (stroke (width 0) (type default))
     (uuid 0713bf0b-590b-4c17-ba26-b1279d3de33f)
-  )
-  (wire (pts (xy 189.23 69.85) (xy 189.23 74.93))
-    (stroke (width 0) (type default))
-    (uuid 07e50d1b-4003-4fb3-a141-c984cce2df26)
   )
   (wire (pts (xy 114.3 163.83) (xy 118.11 163.83))
     (stroke (width 0) (type default))
@@ -536,10 +473,6 @@
     (stroke (width 0) (type default))
     (uuid 48c4737d-21a8-48fc-bafe-9912cb611c1f)
   )
-  (wire (pts (xy 171.45 35.56) (xy 179.07 35.56))
-    (stroke (width 0) (type default))
-    (uuid 4c793d22-3b59-40b9-a8dc-f1b313a8ac25)
-  )
   (wire (pts (xy 60.96 179.07) (xy 67.31 179.07))
     (stroke (width 0) (type default))
     (uuid 58ce2831-32d7-4fed-a610-9c89b37c2c4c)
@@ -571,14 +504,6 @@
   (wire (pts (xy 45.72 132.08) (xy 53.34 132.08))
     (stroke (width 0) (type default))
     (uuid 7caa869d-da8e-422e-8c15-3d3ef9acc96e)
-  )
-  (wire (pts (xy 186.69 69.85) (xy 189.23 69.85))
-    (stroke (width 0) (type default))
-    (uuid 7e51d683-43e3-41d9-9eb0-5509f9b3f68d)
-  )
-  (wire (pts (xy 186.69 35.56) (xy 189.23 35.56))
-    (stroke (width 0) (type default))
-    (uuid 80b2c8ac-5fca-40fe-be02-ae3a25dca044)
   )
   (wire (pts (xy 125.73 163.83) (xy 129.54 163.83))
     (stroke (width 0) (type default))
@@ -656,10 +581,6 @@
     (stroke (width 0) (type default))
     (uuid c9b060ee-1dc6-43ea-aa8e-cb6513b74ce5)
   )
-  (wire (pts (xy 189.23 35.56) (xy 193.04 35.56))
-    (stroke (width 0) (type default))
-    (uuid ca8ffc15-07f6-4735-96a4-cb2ce40f037b)
-  )
   (wire (pts (xy 118.11 179.07) (xy 114.3 179.07))
     (stroke (width 0) (type default))
     (uuid cd0c0956-ffd3-4e44-a68d-b4836827f763)
@@ -688,21 +609,9 @@
     (stroke (width 0) (type default))
     (uuid e0b367fe-cf05-48f9-bce6-d11c1ca13072)
   )
-  (wire (pts (xy 189.23 35.56) (xy 189.23 40.64))
-    (stroke (width 0) (type default))
-    (uuid e82fcaf3-69b2-437b-b96a-2c92fe0b1485)
-  )
   (wire (pts (xy 110.49 163.83) (xy 114.3 163.83))
     (stroke (width 0) (type default))
     (uuid ece65763-3bdd-4632-b78c-52e483a75b1f)
-  )
-  (wire (pts (xy 189.23 69.85) (xy 193.04 69.85))
-    (stroke (width 0) (type default))
-    (uuid fae42940-0de1-4880-80e0-0dec6da09b76)
-  )
-  (wire (pts (xy 171.45 69.85) (xy 179.07 69.85))
-    (stroke (width 0) (type default))
-    (uuid ff12e64c-d1d4-4cc9-b833-36b163393883)
   )
 
   (text "RM7,5;10" (at 118.11 59.69 0)
@@ -789,7 +698,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 72.39 132.08 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ae91fc4-a76e-4866-ba0c-776c10ab618e)
-    (property "Reference" "J414" (at 74.93 132.08 0)
+    (property "Reference" "J426" (at 74.93 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 81.28 132.08 0)
@@ -805,7 +714,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J414") (unit 1)
+          (reference "J426") (unit 1)
         )
       )
     )
@@ -814,7 +723,7 @@
   (symbol (lib_id "Device:C") (at 121.92 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0cc15c62-6e95-4db1-88c0-5df957e51577)
-    (property "Reference" "C412" (at 121.92 47.0367 90)
+    (property "Reference" "C404" (at 121.92 47.0367 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 121.92 49.4609 90)
@@ -831,32 +740,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C412") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 198.12 35.56 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0e819239-f8f2-4a9d-816d-e7b2690c7d30)
-    (property "Reference" "J436" (at 200.66 35.56 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x01" (at 207.01 35.56 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (at 198.12 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 198.12 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c4d3394d-dc92-49a7-8bed-fd322852bd12))
-    (instances
-      (project "reparaturhelfer"
-        (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J436") (unit 1)
+          (reference "C404") (unit 1)
         )
       )
     )
@@ -865,7 +749,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 40.64 179.07 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 105681cd-c1f5-49c0-92fd-9d87675f4baf)
-    (property "Reference" "J419" (at 38.1 179.07 0)
+    (property "Reference" "J435" (at 38.1 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 31.75 179.07 0)
@@ -881,7 +765,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J419") (unit 1)
+          (reference "J435") (unit 1)
         )
       )
     )
@@ -890,7 +774,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 40.64 132.08 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19459a75-d0d6-45e9-9a6d-cc1ce22926d0)
-    (property "Reference" "J413" (at 38.1 132.08 0)
+    (property "Reference" "J425" (at 38.1 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 31.75 132.08 0)
@@ -906,7 +790,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J413") (unit 1)
+          (reference "J425") (unit 1)
         )
       )
     )
@@ -940,7 +824,7 @@
   (symbol (lib_id "Device:C") (at 121.92 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c0eaaa7-d78a-4c01-915c-a28b6e56e5b8)
-    (property "Reference" "C413" (at 121.92 63.5467 90)
+    (property "Reference" "C406" (at 121.92 63.5467 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 121.92 65.9709 90)
@@ -957,7 +841,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C413") (unit 1)
+          (reference "C406") (unit 1)
         )
       )
     )
@@ -966,7 +850,7 @@
   (symbol (lib_id "Device:C") (at 121.92 35.56 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1cc89eda-eccd-451f-8478-daeff27a6d7f)
-    (property "Reference" "C411" (at 121.92 29.2567 90)
+    (property "Reference" "C402" (at 121.92 29.2567 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 121.92 31.6809 90)
@@ -983,7 +867,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C411") (unit 1)
+          (reference "C402") (unit 1)
         )
       )
     )
@@ -992,7 +876,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 105.41 116.84 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1e80ac1a-8471-4a53-85a2-f4cd61c497ae)
-    (property "Reference" "J431" (at 102.87 116.84 0)
+    (property "Reference" "J423" (at 102.87 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 96.52 116.84 0)
@@ -1008,7 +892,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J431") (unit 1)
+          (reference "J423") (unit 1)
         )
       )
     )
@@ -1017,7 +901,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 72.39 179.07 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2206570f-23d4-4f99-865d-5c8c9a8683d4)
-    (property "Reference" "J420" (at 74.93 179.07 0)
+    (property "Reference" "J436" (at 74.93 179.07 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 81.28 179.07 0)
@@ -1033,7 +917,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J420") (unit 1)
+          (reference "J436") (unit 1)
         )
       )
     )
@@ -1042,7 +926,7 @@
   (symbol (lib_id "Device:C") (at 57.15 163.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23217530-53f6-4508-9447-3e3ddd6f58a7)
-    (property "Reference" "C409" (at 57.15 157.5267 90)
+    (property "Reference" "C417" (at 57.15 157.5267 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 57.15 159.9509 90)
@@ -1059,7 +943,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C409") (unit 1)
+          (reference "C417") (unit 1)
         )
       )
     )
@@ -1068,7 +952,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 72.39 163.83 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25d4aaac-9f1f-4b27-b109-ba4ed88daa63)
-    (property "Reference" "J418" (at 74.93 163.83 0)
+    (property "Reference" "J432" (at 74.93 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 81.28 163.83 0)
@@ -1084,7 +968,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J418") (unit 1)
+          (reference "J432") (unit 1)
         )
       )
     )
@@ -1093,7 +977,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 72.39 53.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 267af8ad-20fa-462c-9975-dc024c8ac378)
-    (property "Reference" "J404" (at 74.93 53.34 0)
+    (property "Reference" "J406" (at 74.93 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 81.28 53.34 0)
@@ -1109,7 +993,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J404") (unit 1)
+          (reference "J406") (unit 1)
         )
       )
     )
@@ -1118,7 +1002,7 @@
   (symbol (lib_id "Device:C") (at 57.15 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2bab31af-a722-485c-b259-375176714c76)
-    (property "Reference" "C403" (at 57.15 63.5467 90)
+    (property "Reference" "C405" (at 57.15 63.5467 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 57.15 65.9709 90)
@@ -1135,7 +1019,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C403") (unit 1)
+          (reference "C405") (unit 1)
         )
       )
     )
@@ -1144,7 +1028,7 @@
   (symbol (lib_id "Device:C") (at 57.15 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35da38ea-d1c0-4105-a398-5527377ab155)
-    (property "Reference" "C402" (at 57.15 47.0367 90)
+    (property "Reference" "C403" (at 57.15 47.0367 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 57.15 49.4609 90)
@@ -1161,7 +1045,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C402") (unit 1)
+          (reference "C403") (unit 1)
         )
       )
     )
@@ -1170,7 +1054,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 105.41 35.56 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 369e8495-81b0-4f34-9205-bbf6504b83bc)
-    (property "Reference" "J421" (at 102.87 35.56 0)
+    (property "Reference" "J403" (at 102.87 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 96.52 35.56 0)
@@ -1186,7 +1070,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J421") (unit 1)
+          (reference "J403") (unit 1)
         )
       )
     )
@@ -1195,7 +1079,7 @@
   (symbol (lib_id "Device:C") (at 57.15 148.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 381f70e7-35a4-44d4-9758-4e83b6c0401a)
-    (property "Reference" "C408" (at 57.15 142.2867 90)
+    (property "Reference" "C415" (at 57.15 142.2867 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 57.15 144.7109 90)
@@ -1212,7 +1096,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C408") (unit 1)
+          (reference "C415") (unit 1)
         )
       )
     )
@@ -1221,7 +1105,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 137.16 86.36 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 395e35c5-eff5-4df6-a19e-7f85223a6583)
-    (property "Reference" "J428" (at 139.7 86.36 0)
+    (property "Reference" "J416" (at 139.7 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 146.05 86.36 0)
@@ -1237,7 +1121,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J428") (unit 1)
+          (reference "J416") (unit 1)
         )
       )
     )
@@ -1246,7 +1130,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 137.16 101.6 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3cbd1d54-000a-456b-88b3-c8ec2684b818)
-    (property "Reference" "J430" (at 139.7 101.6 0)
+    (property "Reference" "J420" (at 139.7 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 146.05 101.6 0)
@@ -1262,7 +1146,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J430") (unit 1)
+          (reference "J420") (unit 1)
         )
       )
     )
@@ -1271,7 +1155,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 40.64 116.84 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 463bd92d-317d-47f0-b46f-3a65ed408028)
-    (property "Reference" "J411" (at 38.1 116.84 0)
+    (property "Reference" "J421" (at 38.1 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 31.75 116.84 0)
@@ -1287,7 +1171,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J411") (unit 1)
+          (reference "J421") (unit 1)
         )
       )
     )
@@ -1296,7 +1180,7 @@
   (symbol (lib_id "Device:C") (at 121.92 148.59 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 464e492d-8302-4827-b3e2-e7bd3bcbf629)
-    (property "Reference" "C418" (at 121.92 142.2867 90)
+    (property "Reference" "C416" (at 121.92 142.2867 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 121.92 144.7109 90)
@@ -1313,7 +1197,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C418") (unit 1)
+          (reference "C416") (unit 1)
         )
       )
     )
@@ -1322,7 +1206,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 105.41 132.08 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4d241116-a9fe-4f9f-bca6-d4c174e3857a)
-    (property "Reference" "J433" (at 102.87 132.08 0)
+    (property "Reference" "J427" (at 102.87 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 96.52 132.08 0)
@@ -1338,7 +1222,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J433") (unit 1)
+          (reference "J427") (unit 1)
         )
       )
     )
@@ -1369,35 +1253,10 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 189.23 45.72 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4fae7973-7aef-4ce6-85e9-15eb49d0f614)
-    (property "Reference" "J441" (at 189.23 48.26 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x01" (at 189.23 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (at 189.23 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 189.23 45.72 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e12eb01b-ae26-4725-a4b7-6ad6f7be1919))
-    (instances
-      (project "reparaturhelfer"
-        (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J441") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 121.92 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 53695c52-c40a-47b6-8688-7adc6c4cd3aa)
-    (property "Reference" "C415" (at 121.92 95.2967 90)
+    (property "Reference" "C410" (at 121.92 95.2967 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 121.92 97.7209 90)
@@ -1414,7 +1273,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C415") (unit 1)
+          (reference "C410") (unit 1)
         )
       )
     )
@@ -1423,7 +1282,7 @@
   (symbol (lib_id "Device:C") (at 57.15 179.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5bdefe8b-7d3e-4fb6-ba76-de3d38f06256)
-    (property "Reference" "C410" (at 57.15 172.7667 90)
+    (property "Reference" "C419" (at 57.15 172.7667 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 57.15 175.1909 90)
@@ -1440,32 +1299,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C410") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 198.12 69.85 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 609d8729-a607-4044-8850-488f47aa20c2)
-    (property "Reference" "J440" (at 200.66 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x01" (at 207.01 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (at 198.12 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 198.12 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 21945fdc-18d7-46be-a6d8-464a6277ba70))
-    (instances
-      (project "reparaturhelfer"
-        (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J440") (unit 1)
+          (reference "C419") (unit 1)
         )
       )
     )
@@ -1474,7 +1308,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 72.39 148.59 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6cb7c80d-ac93-487d-a734-998cb1267f00)
-    (property "Reference" "J416" (at 74.93 148.59 0)
+    (property "Reference" "J430" (at 74.93 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 81.28 148.59 0)
@@ -1490,7 +1324,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J416") (unit 1)
+          (reference "J430") (unit 1)
         )
       )
     )
@@ -1499,7 +1333,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 40.64 163.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 75c42e8f-c1b9-46a2-94f2-5b8926b3d47e)
-    (property "Reference" "J417" (at 38.1 163.83 0)
+    (property "Reference" "J431" (at 38.1 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 31.75 163.83 0)
@@ -1515,7 +1349,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J417") (unit 1)
+          (reference "J431") (unit 1)
         )
       )
     )
@@ -1524,7 +1358,7 @@
   (symbol (lib_id "Device:C") (at 57.15 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 793e81b3-07ed-461a-b3a5-7e225a213d8a)
-    (property "Reference" "C404" (at 57.15 80.0567 90)
+    (property "Reference" "C407" (at 57.15 80.0567 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 57.15 82.4809 90)
@@ -1541,7 +1375,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C404") (unit 1)
+          (reference "C407") (unit 1)
         )
       )
     )
@@ -1550,7 +1384,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 105.41 101.6 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7c2325d5-8747-4ed8-b5eb-a63d6356e477)
-    (property "Reference" "J429" (at 102.87 101.6 0)
+    (property "Reference" "J419" (at 102.87 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 96.52 101.6 0)
@@ -1566,7 +1400,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J429") (unit 1)
+          (reference "J419") (unit 1)
         )
       )
     )
@@ -1601,7 +1435,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 72.39 116.84 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84ce825e-322c-4da5-a7cf-70de11097c10)
-    (property "Reference" "J412" (at 74.93 116.84 0)
+    (property "Reference" "J422" (at 74.93 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 81.28 116.84 0)
@@ -1617,7 +1451,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J412") (unit 1)
+          (reference "J422") (unit 1)
         )
       )
     )
@@ -1626,7 +1460,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 137.16 69.85 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 886f41ab-ea15-4ba3-9af3-b1c721f17b71)
-    (property "Reference" "J426" (at 139.7 69.85 0)
+    (property "Reference" "J412" (at 139.7 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 146.05 69.85 0)
@@ -1642,7 +1476,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J426") (unit 1)
+          (reference "J412") (unit 1)
         )
       )
     )
@@ -1651,7 +1485,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 40.64 148.59 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c7389d7-d9f1-46c8-af9d-a4fb27adeab1)
-    (property "Reference" "J415" (at 38.1 148.59 0)
+    (property "Reference" "J429" (at 38.1 148.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 31.75 148.59 0)
@@ -1667,32 +1501,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J415") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 166.37 35.56 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9d06a2f6-0a86-414c-8d2a-e54f7c4eb34c)
-    (property "Reference" "J435" (at 163.83 35.56 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x01" (at 157.48 35.56 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (at 166.37 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 166.37 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 628bf4c8-4575-49b9-b5ef-5de12a05d5b2))
-    (instances
-      (project "reparaturhelfer"
-        (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J435") (unit 1)
+          (reference "J429") (unit 1)
         )
       )
     )
@@ -1701,7 +1510,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 105.41 86.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a0d0bf8a-fd19-437d-9dfa-43542675bb8f)
-    (property "Reference" "J427" (at 102.87 86.36 0)
+    (property "Reference" "J415" (at 102.87 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 96.52 86.36 0)
@@ -1717,7 +1526,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J427") (unit 1)
+          (reference "J415") (unit 1)
         )
       )
     )
@@ -1726,7 +1535,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 72.39 101.6 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4e068d8-784c-4cd9-b8e0-38633d4866e2)
-    (property "Reference" "J410" (at 74.93 101.6 0)
+    (property "Reference" "J418" (at 74.93 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 81.28 101.6 0)
@@ -1742,7 +1551,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J410") (unit 1)
+          (reference "J418") (unit 1)
         )
       )
     )
@@ -1777,7 +1586,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 137.16 53.34 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9a64954-8a33-4d8f-a323-a4e5a8aca092)
-    (property "Reference" "J424" (at 139.7 53.34 0)
+    (property "Reference" "J408" (at 139.7 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 146.05 53.34 0)
@@ -1793,7 +1602,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J424") (unit 1)
+          (reference "J408") (unit 1)
         )
       )
     )
@@ -1802,7 +1611,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 72.39 69.85 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aadd4591-298a-43fb-ab93-4ff48ff90dd6)
-    (property "Reference" "J406" (at 74.93 69.85 0)
+    (property "Reference" "J410" (at 74.93 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 81.28 69.85 0)
@@ -1818,7 +1627,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J406") (unit 1)
+          (reference "J410") (unit 1)
         )
       )
     )
@@ -1827,7 +1636,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 105.41 53.34 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac16917d-61da-43a4-b1eb-1ec32a23f229)
-    (property "Reference" "J423" (at 102.87 53.34 0)
+    (property "Reference" "J407" (at 102.87 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 96.52 53.34 0)
@@ -1843,7 +1652,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J423") (unit 1)
+          (reference "J407") (unit 1)
         )
       )
     )
@@ -1852,7 +1661,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 105.41 163.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b30ac421-719b-4056-a0a7-46c3082e909b)
-    (property "Reference" "J437" (at 102.87 163.83 0)
+    (property "Reference" "J433" (at 102.87 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 96.52 163.83 0)
@@ -1868,7 +1677,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J437") (unit 1)
+          (reference "J433") (unit 1)
         )
       )
     )
@@ -1877,7 +1686,7 @@
   (symbol (lib_id "Device:C") (at 121.92 163.83 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b55c5987-3f4b-4628-b78d-76422035ed7b)
-    (property "Reference" "C419" (at 121.92 157.5267 90)
+    (property "Reference" "C418" (at 121.92 157.5267 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 121.92 159.9509 90)
@@ -1894,7 +1703,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C419") (unit 1)
+          (reference "C418") (unit 1)
         )
       )
     )
@@ -1903,7 +1712,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 105.41 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7a9aaca-4b9c-41f8-9201-798926721b86)
-    (property "Reference" "J425" (at 102.87 69.85 0)
+    (property "Reference" "J411" (at 102.87 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 96.52 69.85 0)
@@ -1919,7 +1728,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J425") (unit 1)
+          (reference "J411") (unit 1)
         )
       )
     )
@@ -1928,7 +1737,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 137.16 163.83 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b9893875-b64b-49f0-8805-22de5383a4f1)
-    (property "Reference" "J438" (at 139.7 163.83 0)
+    (property "Reference" "J434" (at 139.7 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 146.05 163.83 0)
@@ -1944,7 +1753,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J438") (unit 1)
+          (reference "J434") (unit 1)
         )
       )
     )
@@ -1953,7 +1762,7 @@
   (symbol (lib_id "Device:C") (at 57.15 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba031e57-3c8e-4059-b2db-bd5754a54597)
-    (property "Reference" "C406" (at 57.15 110.5367 90)
+    (property "Reference" "C411" (at 57.15 110.5367 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 57.15 112.9609 90)
@@ -1970,7 +1779,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C406") (unit 1)
+          (reference "C411") (unit 1)
         )
       )
     )
@@ -1979,7 +1788,7 @@
   (symbol (lib_id "Device:C") (at 121.92 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba3a9168-beaa-4569-a9ae-cac23e099551)
-    (property "Reference" "C417" (at 121.92 125.7767 90)
+    (property "Reference" "C414" (at 121.92 125.7767 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 121.92 128.2009 90)
@@ -1996,7 +1805,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C417") (unit 1)
+          (reference "C414") (unit 1)
         )
       )
     )
@@ -2005,7 +1814,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 40.64 86.36 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bab6bc3e-2f01-4f72-b240-277adfb515ad)
-    (property "Reference" "J407" (at 38.1 86.36 0)
+    (property "Reference" "J413" (at 38.1 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 31.75 86.36 0)
@@ -2021,7 +1830,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J407") (unit 1)
+          (reference "J413") (unit 1)
         )
       )
     )
@@ -2030,7 +1839,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 72.39 86.36 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c64bd963-f0ae-4001-9f26-e87d1156880c)
-    (property "Reference" "J408" (at 74.93 86.36 0)
+    (property "Reference" "J414" (at 74.93 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 81.28 86.36 0)
@@ -2046,7 +1855,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J408") (unit 1)
+          (reference "J414") (unit 1)
         )
       )
     )
@@ -2055,7 +1864,7 @@
   (symbol (lib_id "Device:C") (at 121.92 116.84 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb22b7b8-bef1-4d9e-ad0e-5d5003a3bb80)
-    (property "Reference" "C416" (at 121.92 110.5367 90)
+    (property "Reference" "C412" (at 121.92 110.5367 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 121.92 112.9609 90)
@@ -2072,64 +1881,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C416") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 166.37 69.85 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid cbea8f09-719e-46e6-ad0c-8bf69bdf608d)
-    (property "Reference" "J439" (at 163.83 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x01" (at 157.48 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (at 166.37 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 166.37 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5b1d68f7-8e18-4503-9b99-0754550715c8))
-    (instances
-      (project "reparaturhelfer"
-        (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J439") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "saba-fernbedienung-rescue:CP-Device") (at 182.88 69.85 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d6145789-59ee-4cd1-a858-63be973b6391)
-    (property "Reference" "C422" (at 180.5686 66.8528 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "~" (at 182.88 66.8528 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm" (at 186.69 68.8848 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 182.88 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "" (at 185.1914 66.8528 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Bauteil" "" (at 182.88 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1b2e515c-725c-484b-9655-ba2e1df2adb3))
-    (pin "2" (uuid 2033c74b-3d07-4fe4-85c5-0c4d163e21ee))
-    (instances
-      (project "reparaturhelfer"
-        (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C422") (unit 1)
+          (reference "C412") (unit 1)
         )
       )
     )
@@ -2138,7 +1890,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 40.64 53.34 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7628783-bbe2-4775-a395-f7b67f7a65af)
-    (property "Reference" "J403" (at 38.1 53.34 0)
+    (property "Reference" "J405" (at 38.1 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 31.75 53.34 0)
@@ -2154,7 +1906,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J403") (unit 1)
+          (reference "J405") (unit 1)
         )
       )
     )
@@ -2163,7 +1915,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 137.16 35.56 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dfba5481-69a3-49c2-b999-61f993cf8cb8)
-    (property "Reference" "J422" (at 139.7 35.56 0)
+    (property "Reference" "J404" (at 139.7 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 146.05 35.56 0)
@@ -2179,7 +1931,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J422") (unit 1)
+          (reference "J404") (unit 1)
         )
       )
     )
@@ -2188,7 +1940,7 @@
   (symbol (lib_id "Device:C") (at 57.15 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e39ac221-ec62-40d2-b91a-f035b09036a7)
-    (property "Reference" "C405" (at 57.15 95.2967 90)
+    (property "Reference" "C409" (at 57.15 95.2967 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 57.15 97.7209 90)
@@ -2205,7 +1957,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C405") (unit 1)
+          (reference "C409") (unit 1)
         )
       )
     )
@@ -2214,7 +1966,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 137.16 132.08 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e486b869-c074-4522-afff-28a045ed7f8d)
-    (property "Reference" "J434" (at 139.7 132.08 0)
+    (property "Reference" "J428" (at 139.7 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 146.05 132.08 0)
@@ -2230,7 +1982,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J434") (unit 1)
+          (reference "J428") (unit 1)
         )
       )
     )
@@ -2239,7 +1991,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 40.64 69.85 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5dd12a4-1671-4700-85d8-5dc824f3572a)
-    (property "Reference" "J405" (at 38.1 69.85 0)
+    (property "Reference" "J409" (at 38.1 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 31.75 69.85 0)
@@ -2255,7 +2007,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J405") (unit 1)
+          (reference "J409") (unit 1)
         )
       )
     )
@@ -2264,7 +2016,7 @@
   (symbol (lib_id "Device:C") (at 121.92 86.36 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e61a1221-67d5-41fa-a8de-ed34e3dc7760)
-    (property "Reference" "C414" (at 121.92 80.0567 90)
+    (property "Reference" "C408" (at 121.92 80.0567 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 121.92 82.4809 90)
@@ -2281,7 +2033,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C414") (unit 1)
+          (reference "C408") (unit 1)
         )
       )
     )
@@ -2290,7 +2042,7 @@
   (symbol (lib_id "Device:C") (at 57.15 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ebf16b0d-e146-4516-b2ac-b9a1456662e6)
-    (property "Reference" "C407" (at 57.15 125.7767 90)
+    (property "Reference" "C413" (at 57.15 125.7767 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "C" (at 57.15 128.2009 90)
@@ -2307,7 +2059,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C407") (unit 1)
+          (reference "C413") (unit 1)
         )
       )
     )
@@ -2316,7 +2068,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 137.16 116.84 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec4a0a06-ac7c-4c7a-8c8f-064e186c572f)
-    (property "Reference" "J432" (at 139.7 116.84 0)
+    (property "Reference" "J424" (at 139.7 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 146.05 116.84 0)
@@ -2332,7 +2084,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J432") (unit 1)
+          (reference "J424") (unit 1)
         )
       )
     )
@@ -2362,35 +2114,10 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_01x01") (at 189.23 80.01 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f5146a45-681e-4d81-a84d-d9e55228576b)
-    (property "Reference" "J442" (at 189.23 82.55 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "Conn_01x01" (at 189.23 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" (at 189.23 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 189.23 80.01 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 430f503a-44fb-4105-b8da-26c752fbf75d))
-    (instances
-      (project "reparaturhelfer"
-        (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J442") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 40.64 101.6 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6f7a386-2997-4c85-8c5e-c01fe8353672)
-    (property "Reference" "J409" (at 38.1 101.6 0)
+    (property "Reference" "J417" (at 38.1 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x01" (at 31.75 101.6 0)
@@ -2406,39 +2133,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "J409") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "saba-fernbedienung-rescue:CP-Device") (at 182.88 35.56 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f8fe038a-8743-4885-8195-a24e0ace7c95)
-    (property "Reference" "C421" (at 180.5686 32.5628 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "~" (at 182.88 32.5628 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" (at 186.69 34.5948 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 182.88 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Voltage" "" (at 185.1914 32.5628 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Bauteil" "" (at 182.88 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 40b5e9a4-cf3b-4d19-ac08-20067b4dc500))
-    (pin "2" (uuid 2974a7a1-217e-4341-a762-dab3298642c7))
-    (instances
-      (project "reparaturhelfer"
-        (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/45f1507b-7f5c-4e7b-a0a2-2692e6189275"
-          (reference "C421") (unit 1)
+          (reference "J417") (unit 1)
         )
       )
     )

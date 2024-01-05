@@ -649,7 +649,7 @@
   (symbol (lib_id "Device:C") (at 74.93 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2fe0f657-5494-43b2-9ca3-617a8592e6b4)
-    (property "Reference" "C502" (at 72.6186 52.959 0)
+    (property "Reference" "C503" (at 72.6186 52.959 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2n2" (at 74.93 52.959 0)
@@ -672,7 +672,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/4327f5a1-8aa2-42ba-9107-de0665ca43c2"
-          (reference "C502") (unit 1)
+          (reference "C503") (unit 1)
         )
       )
     )
@@ -681,7 +681,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 88.9 71.12 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39dc400a-1adb-4d8a-9996-3b00735e653d)
-    (property "Reference" "H501" (at 91.44 71.1779 0)
+    (property "Reference" "H502" (at 91.44 71.1779 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MountingHole_Pad" (at 91.44 73.6021 0)
@@ -697,7 +697,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/4327f5a1-8aa2-42ba-9107-de0665ca43c2"
-          (reference "H501") (unit 1)
+          (reference "H502") (unit 1)
         )
       )
     )
@@ -706,7 +706,7 @@
   (symbol (lib_id "Device:C") (at 59.69 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 808c04f4-5912-418d-b8cb-ca9122b92039)
-    (property "Reference" "C501" (at 62.611 48.4886 0)
+    (property "Reference" "C502" (at 62.611 48.4886 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2n2" (at 62.611 50.8 0)
@@ -729,7 +729,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/4327f5a1-8aa2-42ba-9107-de0665ca43c2"
-          (reference "C501") (unit 1)
+          (reference "C502") (unit 1)
         )
       )
     )
@@ -744,7 +744,7 @@
     (property "Value" "Conn_01x03" (at 43.18 52.8899 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 43.18 58.42 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 43.18 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 43.18 58.42 0)
@@ -765,7 +765,7 @@
   (symbol (lib_id "Device:C") (at 74.93 44.45 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c2cced29-2a00-4ff3-b240-8160c4534e4c)
-    (property "Reference" "C503" (at 72.6186 41.529 0)
+    (property "Reference" "C501" (at 72.6186 41.529 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2n2" (at 74.93 41.529 0)
@@ -788,7 +788,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/4327f5a1-8aa2-42ba-9107-de0665ca43c2"
-          (reference "C503") (unit 1)
+          (reference "C501") (unit 1)
         )
       )
     )
@@ -821,7 +821,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 76.2 71.12 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8c2ad2a-3728-4197-bd0b-c110ed4a308c)
-    (property "Reference" "H502" (at 78.74 71.1779 0)
+    (property "Reference" "H501" (at 78.74 71.1779 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "MountingHole_Pad" (at 78.74 73.6021 0)
@@ -837,7 +837,7 @@
     (instances
       (project "reparaturhelfer"
         (path "/93378ebd-f9ac-4734-8bdd-78f97f3ae344/4327f5a1-8aa2-42ba-9107-de0665ca43c2"
-          (reference "H502") (unit 1)
+          (reference "H501") (unit 1)
         )
       )
     )
