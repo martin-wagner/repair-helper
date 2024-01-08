@@ -1870,7 +1870,7 @@
     (property "Value" "C" (at 121.92 112.9609 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L16.5mm_W7.0mm_P15.00mm_MKT" (at 125.73 115.8748 0)
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W3.5mm_P2.50mm_P5.00mm" (at 125.73 115.8748 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 116.84 0)
